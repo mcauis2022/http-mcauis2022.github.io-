@@ -277,17 +277,21 @@
               Information Systems
             </p>
             <br> -->
-            <p class="text-muted mb-0" style="font-size: 0.9em; " align="center">Dr. Amitesh Singh Rajput is an
-              Assistant Professor in the Department of Computer Science &
-              Information Systems, Birla Institute of Technology & Science, Pilani, India. He received his
-              Ph.D. degree in the area of Privacy-Preservation and Multimedia Computing from Indian
-              Institute of Technology Roorkee. His research lies at the intersection of Multimedia Computing,
-              Secured Data Processing, and Machine Learning. He has served on review boards and
-              scientific committees for more than 30 scientific journals and various national and international
-              conferences respectively. Besides academic research, Dr. Amitesh has served as a jury
-              member in Smart India Hackathon 2020, organized by the Ministry of Human Resource
-              Development, Government of India.
-            </p>
+            <div class="box">
+              <p class="text-muted mb-0" style="font-size: 0.9em; " align="center">Dr. Amitesh Singh Rajput is an
+                Assistant Professor in the Department of Computer Science &
+                Information Systems, Birla Institute of Technology & Science, Pilani, India. He received his
+                Ph.D. degree in the area of Privacy-Preservation and Multimedia Computing from Indian
+                Institute of Technology Roorkee. His research lies at the intersection of Multimedia Computing,
+                Secured Data Processing, and Machine Learning. He has served on review boards and
+                scientific committees for more than 30 scientific journals and various national and international
+                conferences respectively. Besides academic research, Dr. Amitesh has served as a jury
+                member in Smart India Hackathon 2020, organized by the Ministry of Human Resource
+                Development, Government of India.
+              </p>
+
+            </div>
+            <button onclick="expand(0)" class="btn btn-light my-2">See more</button>
 
           </div>
         </div>
@@ -305,6 +309,7 @@
 
             <!-- <p class="text-muted mb-0" style="font-size: 0.9em; " align="center">Professor, Computer Science &
               Engineering</p> -->
+              <div class="box">
             <p class="text-muted mb-0" style="font-size: 0.9em; " align="center">Dr. Balasubramanian Raman a Professor
               with the Department of Computer Science and
               Engineering, Indian Institute of Technology Roorkee, Roorkee, India. He received his Ph.D.
@@ -317,6 +322,8 @@
               summarization, medical imaging, long-range imaging, and hyperspectral imaging. He was a
               recipient of the BOYSCAST Fellowship from DST, India.
             </p>
+            </div>
+            <button onclick="expand(1)" class="btn btn-light my-2">See more</button>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
@@ -335,6 +342,7 @@
             <!-- <p class="text-muted mb-0" style="font-size: 0.9em; " align="center">Assistant Professor, Computer Science &
               Information Systems
             </p> -->
+            <div class="box">
             <p class="text-muted mb-0" style="font-size: 0.9em; " align="center">Dr. Pratik Narang is an Assistant
               Professor in the Department of Computer Science and
               Information Systems, Birla Institute of Technology & Science, Pilani, India. Previously, Pratik
@@ -345,6 +353,8 @@
               Technology, IEEE Transactions on Dependable and Secure Computing, IET Intelligent
               Transport Systems, etc.
             </p>
+            </div>
+            <button onclick="expand(2)" class="btn btn-light my-2">See more</button>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
@@ -362,6 +372,7 @@
 
             <!-- <p class="text-muted mb-0" style="font-size: 0.9em; " align="center">Assistant Professor, Computer Science &
               Information Systems</p> -->
+              <div class="box">
             <p class="text-muted mb-0" style="font-size: 0.9em; " align="center">Dr. Jagat Sesh Challa is currently
               working as an Assistant Professor in the Department of
               Computer Science and Information Systems, Birla Institute of Technology & Science, Pilani.
@@ -375,6 +386,8 @@
               BITS Pilani Postman Classroom Program and the Incharge of the Postman API and Coding
               Innovation Lab at Incubation and Innovation Center at Pilani Campus.
             </p>
+              </div>
+              <button onclick="expand(3)" class="btn btn-light my-2">See more</button>
           </div>
         </div>
       </div>
@@ -393,7 +406,11 @@
 
   <!-- Custom scripts for this template -->
   <script src="./Artificial Intelligence for Art Creation_files/creative.min.js"></script>
-
+  <script>
+    function expand(n) {
+      document.getElementsByClassName("box")[n].style.height = "100%";
+    }
+  </script>
 
 
 
