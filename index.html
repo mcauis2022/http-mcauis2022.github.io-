@@ -41,6 +41,23 @@
       /* font-size: 18px; */
       color: black;
     }
+    .profileImage {
+      width: 150px;
+      border-radius: 50%;
+      margin: 10px 0;
+    }
+    .profile {
+      display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    }
+    .profileName {
+          text-align: center;
+    margin-bottom: 40px;
+    }
   </style>
 </head>
 
@@ -254,17 +271,30 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto text-center">
-          <h2 class="section-heading text-dark">Invited Speakers</h2>
+          <h2 class="section-heading text-dark">Keynote Speakers</h2>
           <hr class="dark my-4">
           <h5 class="section-heading text-dark" style="text-align: left; line-height: 1.8">
-            <ul>
-              <li style="color: black;">
-                <div class="text-faded" style="text-align: left;color: black;font-size: 18px;line-height: 1.8">
-                  Will be announced later.
-                </div>
-              </li>
+            
+                <div class="text-faded" style="text-align: left;color: black;font-size: 16px;line-height: 1.8">
+                  <div class="speaker">
+                    <div class="profile">
+                      <div class="profilePic">
+                      <img class="profileImage" src="./assets/img/kiranRaja.jpeg" />
+                      </div>
+                      <div class="profileName">
+                        <b>Kiran Raja</b><br/>
+                          Associate Professor, Norwegian University of Science and Technology               
+                      </div>
+                    </div>
+                    <p><b>Title:</b> Biometric Template Protection and Key Generation using Elliptic Curves</p>
 
-            </ul>
+                      <p><b>Abstract:</b><br/> The need to protect biometric data has been well advised according to various regulations and standards. The most popular Bloom Filter-based template protection schemes for iris recognition directly depend on the keys to avoid linkability challenges. This talk discusses existing approaches and a new approach for generating the keys directly from the iris biometric data using chaotic maps and elliptic curves over finite fields. The application of it will be discussed for template protection scheme that can directly exploit the generated keys to provide better security using a Quarter-Rounded template encoding which employs the inter-relation of bits in the neighborhood of the iriscode.<br />
+                      <br />
+                      <b>Biography:</b><br/> Kiran Raja received the Ph.D. degree in computer Science from the Norwegian University of Science and Technology, Norway, in 2016. He is Faculty Member with the Department of Computer Science at NTNU, Norway. He was/is participating in EU projects SOTAMD, iMARS, and other national projects. He is a member of European Association of Biometrics (EAB), chairs Academic Special Interest Group at EAB and is a senior member of IEEE. He serves as a program co-chair of BIOSIG. He is also a member of the editorial board for various journals.<br />
+                      </p>
+                  </div>
+                </div>
+
           </h5>
 
 
